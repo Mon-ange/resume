@@ -1,0 +1,68 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{周梦婷}
+
+\basicInfo{
+  \email{98monange@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 173-685-95836} \textperiodcentered\ 
+  \github[Mon-ange]{https://github.com/Mon-ange}}
+
+\section{\faGraduationCap\ 教育背景}
+\datedsubsection{\textbf{北京工业大学(BJUT)}, 北京}{2021 -- 至今}
+\textit{在读硕士研究生} 软件工程 (SE), 预计2024年4月毕业
+\datedsubsection{\textbf{常州大学}, 江苏，常州}{2015 -- 2019}
+\textit{学士} 计算机科学与技术 (CS)
+
+\section{\faUsers\ 实习经历}
+\datedsubsection{\textbf{北京石头世纪科技股份有限公司} 北京}{2021/7/15 -- 2021/11/15}
+\role{测试开发工程师}{实习}
+主要工作: 针对石头和米家app开发对扫地机器人的自动测试系统
+\begin{itemize}
+  \item 对于智能物联网行业来说，产品和app连接后，产品的功能需要进行反复测试。所以我针对石头app和米家app开发了一个
+  测试系统。在我进入石头测试部门的时候，我作为测试开发组的主力，设计架构并实现了层次测试系统。 该系统主要对快连、
+  产品指南、下载语音包、清扫、固件升级、定时清扫、查看耗材、触发报错等功能进行自动化测试并在过程中进行抓包存储方便分析
+  人士分析IP包。我设计的系统架构清晰，结构解耦，无硬编码；良好运用了面向对象思想，以页面为基础对象，在服务层是一条实
+  际用例对应一行业务代码。主要技术栈：Appium、testng、java。
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT技能}
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Java, C/C++, python
+  \item 平台: Windows,Linux,MacOS
+  \item 语言: English - CET6
+  \item 技术栈: Kubernetes, Spring Boot, Mysql, Shell Scripting, Testing, Appium, Testng
+  \item 熟悉 AWS
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{第八届蓝桥杯全国软件和信息技术专业人才大赛江苏赛区二等奖（C/C++）  }{2017.04.08}
+\datedline{2017江苏省程序设计竞赛（JSCPC）三等奖 }{2017.05.14}
+\datedline{CCF-CSP计算机软件能力认证(C/C++)得分210，全国前19.78\%}{2017.03.20}
+\datedline{ACM-ICPC国际大学生程序竞赛-亚洲区域赛（北京大学站）荣誉提名 }{2016.11.13}
+\datedline{2016年中国大学生程序设计竞赛（杭州）荣誉提名}{2016.10.10}
+
+\section{\faInfo\ 其他活动}
+\begin{itemize}[parsep=0.5ex]
+  \item ACM国际大学生程序竞赛校队队员，2016年10月 - 2018年10月
+
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
